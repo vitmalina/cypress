@@ -80,6 +80,14 @@ export const browsers: Detectors = {
       versionProperty: 'CFBundleShortVersionString',
     },
   },
+  safari: {
+    stable: {
+      appName: 'Safari.app',
+      executable: 'Contents/MacOS/Safari',
+      appId: 'com.apple.Safari',
+      versionProperty: 'CFBundleShortVersionString',
+    },
+  },
 }
 
 export const getVersionString = linuxHelper.getVersionString

@@ -177,6 +177,24 @@ exports['windows browser detection detects browsers as expected 1'] = [
       "appId": "com.microsoft.Edge.Dev",
       "versionProperty": "CFBundleShortVersionString"
     }
+  },
+  {
+    "name": "safari",
+    "family": "webkit",
+    "channel": "stable",
+    "displayName": "Safari",
+    "versionRegex": {},
+    "binary": [
+      "Safari"
+    ],
+    "path": "C:/Program Files (x86)/Safari/Safari.exe",
+    "version": "14",
+    "findAppParams": {
+      "appName": "Safari.app",
+      "executable": "Contents/MacOS/Safari",
+      "appId": "com.apple.Safari",
+      "versionProperty": "CFBundleShortVersionString"
+    }
   }
 ]
 

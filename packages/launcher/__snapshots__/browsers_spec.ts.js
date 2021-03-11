@@ -97,5 +97,13 @@ exports['browsers returns the expected list of browsers 1'] = [
       "edge-dev",
       "microsoft-edge-dev"
     ]
+  },
+  {
+    "name": "safari",
+    "family": "webkit",
+    "channel": "stable",
+    "displayName": "Safari",
+    "versionRegex": {},
+    "binary": ["Safari"]
   }
 ]

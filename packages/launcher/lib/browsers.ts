@@ -90,6 +90,14 @@ export const browsers: Browser[] = [
     versionRegex: /Microsoft Edge Dev (\S+)/m,
     binary: ['edge-dev', 'microsoft-edge-dev'],
   },
+  {
+    name: 'safari',
+    family: 'webkit',
+    channel: 'stable',
+    displayName: 'Safari',
+    versionRegex: /Safari(\S+)/m,
+    binary: ['Safari'],
+  },
 ]
 
 /** starts a found browser and opens URL if given one */

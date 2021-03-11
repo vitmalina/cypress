@@ -100,6 +100,11 @@ const formPaths: WindowsBrowserPaths = {
     },
     canary: formEdgeCanaryAppPath,
   },
+  safari: {
+    stable: () => {
+      return [normalize('C:/Program Files (x86)/Safari/Safari.exe')]
+    },
+  },
 }
 
 function getWindowsBrowser (browser: Browser): Promise<FoundBrowser> {

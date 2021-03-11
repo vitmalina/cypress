@@ -67,6 +67,9 @@ describe('windows browser detection', () => {
     // edge canary is installed in homedir
     stubBrowser(`${HOMEDIR}/AppData/Local/Microsoft/Edge SxS/Application/msedge.exe`, '14')
 
+    // safari browser
+    stubBrowser('C:/Program Files (x86)/Safari/Safari.exe', '14')
+
     snapshot(await detect(browsers))
   })
 
